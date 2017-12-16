@@ -8,7 +8,7 @@ def input_to_index(index)
   index.to_i-1
 end
 
-index =input_to_index(input)
+index = input_to_index(input)
 
 def position_taken?(board,index)
   if board[index] == " "

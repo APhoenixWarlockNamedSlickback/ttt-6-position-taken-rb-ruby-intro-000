@@ -2,6 +2,8 @@
 # code your #position_taken? method here!
 board = ["X"]
 
+index = "0"
+
 def input_to_index(index)
   index.to_i - 1
 end

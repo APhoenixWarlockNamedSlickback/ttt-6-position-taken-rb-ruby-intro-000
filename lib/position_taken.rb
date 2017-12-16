@@ -2,7 +2,7 @@
 # code your #position_taken? method here!
 board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
 
-def position_taken?(board,index = 0)
+def position_taken?(board,index = 0 || 8)
   if board[index] == " " || ""
     return false
   elsif board[index] == "X" || "O"
